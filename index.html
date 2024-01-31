@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- __________________________________HEAD_________________________________________________ -->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="This is Aslam's portfolio ">
+    <meta name="author" content="Zahi">
+    <title>Aslam's Portfolio</title>
+
+    <!-- font icons -->
+    <link rel="shortcut icon" href="assets/imgs/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+
+    <!-- Link freakyfolio CSS -->
+    <link rel="stylesheet" href="assets/css/freakyfolio.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <!-- <link rel="stylesheet" href="assets/css/timeline.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+</head>
+<!-- __________________________________END-HEAD_________________________________________________ -->
+
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- ___________________________________________________NAVIGATION BAR________________________________________________________________ -->
+
+    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="logo" href="#">Muhammad Aslam</a>
+            <ul class="nav">
+                <li class="item">
+                    <a class="link" href="#home">Home</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#about">About</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#project-section">Works</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#contact">Contact</a>
+                </li>
+            </ul>
+            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
+                <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                </div>
+            </a>
+        </div>
+    </nav>
+    <!-- End of Page Navbar -->
+
+    <!-- page header -->
+    <header id="home" class="header">
+        <div class="overlay"></div>
+        <div class="header-content container">
+            <h1 class="header-title">
+                <span class="up">HI!</span>
+                <span class="down">I am Aslam</span>
+            </h1>
+            <p class="header-subtitle">MERN Stack Developer</p>
+            <button class=" btn-rounded btn btn-primary bttns"><a href="#project-section"
+                    style="color: white; text-decoration: none;">Visit My Works</a></button>
+        </div>
+    </header>
+    <!-- end of page header -->
+
+
+    <!-- ___________________________________________________ABOUT_SECTION______________________________________________ -->
+    <section class="section pt-0" id="about">
+        <!-- container -->
+        <div class="container text-center">
+            <!-- about wrapper -->
+            <div class="about">
+                <div class="about-img-holder">
+                    <img src="assets/imgs/Screenshot 2024-01-30 231838.png" class="about-img" alt="Picture">
+                </div>
+                <div class="about-caption">
+                    <p class="section-subtitle">Who Am I ?</p>
+                    <h2 class="section-title mb-3">About Me</h2>
+                    <p>
+                        Welcome to my personal website! I am Muhammad Aslam K A, a driven and self-taught MERN Stack
+                        Developer.<br><br>
+
+                        Having grown up in the beautiful district of Wayanad, Kerala, I developed a profound
+                        appreciation for the splendor of nature and the richness of diverse cultures. This appreciation
+                        continually inspires my journey as a MERN stack developer. I am dedicated to harnessing the
+                        power of technology to create meaningful and positive change.<br><br>
+
+                        My expertise lies in full-stack web development, particularly in creating responsive and dynamic
+                        user interfaces. Proficient in JavaScript, React, Node.js, Express, and MongoDB, I have
+                        developed and deployed various projects. These include sophisticated web applications, RESTful
+                        APIs, and efficient database management systems. My work showcases skills in real-time data
+                        processing, user authentication, and state management. You can view my portfolio of projects on
+                        my GitHub repository. I am deeply passionate about using my skills to make a significant,
+                        positive impact in the technology world.<br><br>
+
+                        Thank you for visiting my personal website. Your interest and connection are highly valued.
+                        Let's explore the endless possibilities that technology offers in shaping a better future
+                        together.
+                    </p>
+
+                    <!-- # RESUME -->
+                    <a href="https://drive.google.com/file/d/15h2fvBHdduaI3-lnb-8aCvRvZg35wzs4/view?usp=sharing"
+                        download>
+                        <button class="btn-rounded btn btn-outline-primary mt-4">Download CV</button>
+                    </a>
+                </div>
+            </div><!-- end of about wrapper -->
+        </div><!-- end of container -->
+    </section> <!-- end of about section -->
+
+
+    <!-- ___________________________________________________SKILL - SECTION______________________________________________ -->
+    <style>
+        .icon-list .icon {
+            fill: #38b2ac;
+            width: 24px;
+            height: 24px;
+        }
+
+        .icon-list .icon-with-label {
+            display: flex;
+            align-items: center;
+        }
+
+        .icon-list .icon-label {
+            font-size: 14px;
+        }
+
+        .icon-list .express {
+            width: 24px;
+            height: 24px;
+            font-size: 15px;
+        }
+    </style>
+    <div class="skill_data mt-5">
+
+        <h2 class="text-center">My Skills</h2>
+        <div class="skills">
+            <ul class="icon-list">
+                <li><i class="devicon-html5-plain-wordmark colored"></i></li>
+                <li><i class="devicon-css3-plain-wordmark colored"></i></li>
+                <li><i class="devicon-bootstrap-plain-wordmark colored"></i></li>
+
+                <li class="icon-with-label">
+                    <svg class="icon tailwind-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                        <path d="M12 12l6 6-6 6-6-6 6-6zm0-12l6 6-6 6-6-6 6-6z" />
+                    </svg>
+                    <span class="icon-label">Tailwind</span>
+                </li>
+
+                <li><i class="devicon-javascript-plain colored"></i></li>
+                <li><i class="devicon-typescript-plain colored"></i></li>
+                <li><i class="devicon-mongodb-plain-wordmark colored"></i></li>
+                <li><i class="devicon-postgresql-plain-wordmark colored"></i></li>
+                <li><i class="devicon-react-original colored"></i></li>
+                <li><i class="devicon-generic-icon colored express">Express</i></li>
+                <li><i class="devicon-nodejs-plain colored"></i></li>
+            </ul>
+            </ul>
+
+            <ul class="icon-list">
+                <li><i class="devicon-git-plain-wordmark colored"></i></li>
+                <li><i class="devicon-github-original-wordmark colored"></i></li>
+                <li><i class="devicon-docker-plain-wordmark colored"></i></li>
+                <li><i class="devicon-figma-plain colored"></i></li>
+                <li><i class="devicon-amazonwebservices-plain-wordmark colored"></i></li>
+                <li><i class="devicon-nginx-original colored"></i></li>
+                <li><i class="devicon-firebase-plain colored"></i></li>
+
+
+
+            </ul>
+        </div>
+    </div>
+
+
+
+    <!--____________________________________________MY-TIMELINE_________________________________________ -->
+    <section class="qualification mt-5" id="qualification">
+        <center>
+            <h2 class=" -center">Qualification</h2>
+            <h6 class="text-center ">My personal journey</h6>
+        </center>
+        <div class='TimeLine_body'>
+            <ul class="TimeLine_timeline">
+                <!-- Item 1 -->
+                <li>
+                    <div class="TimeLine_direction-r">
+                        <div class="TimeLine_flag-wrapper">
+                            <span class="TimeLine_flag">High School</span>
+                            <span class="TimeLine_time-wrapper"><span class="TimeLine_time">March 2019</span></span>
+                        </div>
+                        <div class="TimeLine_desc">Blossom Matric high school</div>
+                    </div>
+                </li>
+
+                <!-- Item 2 -->
+                <li>
+                    <div class="TimeLine_direction-l">
+                        <div class="TimeLine_flag-wrapper">
+                            <span class="TimeLine_flag">12th</span>
+                            <span class="TimeLine_time-wrapper"><span class="TimeLine_time">MAY 2021</span></span>
+                        </div>
+                        <div class="TimeLine_desc">Sri Bharathi vidyalaya MHSS</div>
+                    </div>
+                </li>
+
+                <!-- Item 3 -->
+                <li>
+                    <div class="TimeLine_direction-r">
+                        <div class="TimeLine_flag-wrapper">
+                            <span class="TimeLine_flag">Brototype</span>
+                            <span class="TimeLine_time-wrapper"><span class="TimeLine_time">2023 - present</span></span>
+                        </div>
+                        <div class="TimeLine_desc">MERN Stack Developer</div>
+                    </div>
+                </li>
+            </ul>
+
+            <!-- The Timeline -->
+            <!-- <ul class="TimeLine_timeline">
+                Item 1
+                <li>
+                    <div class="TimeLine_direction-l">
+                        <div class="TimeLine_flag-wrapper">
+                            <span class="TimeLine_flag">Brototype</span>
+                            <span class="TimeLine_time-wrapper"><span class="TimeLine_time">2022 - present</span></span>
+                        </div>
+                        <div class="TimeLine_desc">Machine Learning Engineer</div>
+                    </div>
+                </li>
+
+            </ul> -->
+        </div>
+    </section>
+
+    <!-- ___________________________________________________PROJECT_SECTION______________________________________________ -->
+
+    <center class="mt-4" , id="project-section">
+        <h6 class="section-subtitle text-center mt-5">What I Did ?
+            <h1 />
+            <h2 class="section-title text-center mb-0">Projects</h2>
+    </center>
+
+    <section class='my_pro_'>
+        <div class="wrapper">
+
+            <!-- #Project 001 -->
+            <div class="card">
+                <div class="poster"><img src="assets/imgs/stayscout.png " target="_blank" alt="Location Unknown">
+                </div>
+                <div class="details">
+                    <h1>Stay Scout</h1>
+                    <div class="rating">
+                    </div>
+                    <div class="tags">
+                        <a class="button-link" href="https://github.com/MuhammadAslam-K/Stay-Scout.git"
+                            target="_blank">Github</a>
+                        <a class="button-link" href="https://stayscout.shop/" target="_blank">Explore</a>
+                    </div>
+                    <p class="desc">
+
+                        Stayscout is an innovative hotel room booking website, leveraging the MERN stack
+                        for a streamlined user experience. The platform offers an intuitive search and booking system,
+                        enabling users to effortlessly find and reserve hotels tailored to their preferences.
+                        Integrating smart filtering and real-time data, Stayscout ensures a convenient and personalized
+                        hotel booking journey.
+                </div>
+            </div>
+
+            <!-- #Project 002 -->
+            <div class="card">
+                <div class="poster"><img src="assets/imgs/book@.png" alt="Location Unknown">
+                </div>
+                <div class="details">
+                    <h1>Book@</h1>
+                    <div class="rating">
+
+                    </div>
+                    <div class="tags">
+                        <a class="button-link" href="https://github.com/MuhammadAslam-K/Bookat-client.git"
+                            target="_blank">GitHub</a>
+                        <a class="button-link" href="https://bookat-client-rxz4.vercel.app/" target="_blank">Explore</a>
+
+                    </div>
+                    <p class="desc">
+                        Book@ is a cutting-edge taxi booking application built with the MERN stack and TypeScript,
+                        offering a quick and reliable way to book rides. This app features a user-friendly interface for
+                        effortless ride scheduling, real-time tracking, and seamless payment options. Designed to
+                        enhance urban mobility, Book@ connects users with nearby drivers for convenient and safe
+                        transportation services.</p>
+                </div>
+            </div>
+
+
+            <!-- #Project 003 -->
+            <div class="card">
+                <div class="poster"><img src="assets/imgs/markbarber.png" alt="Location Unknown">
+                </div>
+                <div class="details">
+                    <h1>Mark-Barber</h1>
+                    <div class="rating">
+
+                    </div>
+                    <div class="tags">
+                        <a class="button-link" href="https://github.com/MuhammadAslam-K/Project-Mark-Barber_client.git"
+                            target="_blank">GitHub</a>
+                    </div>
+                    <p class="desc">
+                        Mark-Barber is an intuitive salon booking app, developed using the MERN stack and TypeScript,
+                        designed to connect users with nearby salons effortlessly. The app features a user-friendly
+                        interface that allows customers to discover, book, and manage appointments with local salons.
+                        With real-time availability, detailed salon profiles, and easy navigation, Mark-Barber
+                        simplifies the process of finding and booking salon services tailored to your convenience and
+                        preference</p>
+                </div>
+            </div>
+
+
+            <!-- #Project 004 -->
+            <div class="card">
+                <div class="poster"><img src="assets/imgs/weatherApp.png" alt="Location Unknown">
+                </div>
+                <div class="details">
+                    <h1>weather App</h1>
+                    <div class="rating">
+
+                    </div>
+                    <div class="tags">
+                        <a class="button-link" href="https://github.com/MuhammadAslam-K/weather-app.git"
+                            target="_blank">GitHub</a>
+                    </div>
+                    <p class="desc">
+                        WeatherNow is a sleek and user-friendly weather forecasting application developed with React,
+                        providing real-time weather updates for your current location and any searched destination
+                        globally. It features an intuitive interface for easy access to comprehensive weather
+                        information, enhancing daily planning and global weather awareness</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- ___________________________________________________SERVICE_SECTION______________________________________________ -->
+
+    <section class="section" id="service">
+        <div class="container text-center">
+            <p class="section-subtitle">What I Do ?</p>
+            <h6 class="section-title mb-6">Service</h6>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/pencil-case.svg" alt="Picture" class="icon">
+                            <h6 class="title">Web Design</h6>
+                            <p class="subtitle">I strive for two things in design simplicity and clarity. Great design
+                                is born of those two things.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/responsive.svg" alt="Picture" class="icon">
+                            <h6 class="title">Web Development</h6>
+                            <p class="subtitle">Specializing in MERN stack, I provide comprehensive
+                                support and expertise in developing web applications
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/toolbox.svg" alt="" class="icon">
+                            <h6 class="title">Debuging</h6>
+                            <p class="subtitle">I debug, clarify, and simplify the code, ensuring efficient
+                                problem-solving.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/analytics.svg" alt="" class="icon">
+                            <h6 class="title">Mentor</h6>
+                            <p class="subtitle">I can help you learn more about JavaScript ,DSA, MERN Stack.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="mb-5"></div>
+
+    <!-- ___________________________________________________HIRE-MAIL_SECTION______________________________________________ -->
+
+    <section class="section-sm bg-prime">
+        <!-- container -->
+        <div class="container text-center text-sm-left">
+            <!-- row -->
+            <div class="row align-items-center">
+                <div class="col-sm offset-md-1 mb-4 mb-md-0">
+                    <h6 class="title text-light">Want to work with me?</h6>
+                    <p class="m-0 text-light">Always feel Free to Contact & Hire me</p>
+                </div>
+                <div class="col-sm offset-sm-2 offset-md-3">
+                    <a href="mailto:aslamka.2k3@gmail.com" target="_blank">
+                        <button class="btn btn-lg my-font btn-light rounded">Hire Me</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ___________________________________________________CONTACT_SECTION______________________________________________ -->
+
+    <section class="section" id="contact">
+        <div class="container text-center">
+            <p class="section-subtitle">How can you communicate?</p>
+            <h6 class="section-title mb-5">Contact Me</h6>
+
+            <!-- contact form -->
+            <form class="contact-form col-md-10 col-lg-8 m-auto" id="contact-form">
+                <div class="form-row">
+                    <div class="form-group col-sm-6">
+                        <input type="text" size="50" class="form-control" placeholder="Enter Your Name" required
+                            name="from_name">
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <input type="email" class="form-control" placeholder="Enter Your Email" required
+                            name="from_email">
+                    </div>
+                    <div class="form-group col-sm-12">
+                        <textarea name="message_html" id="message_html" rows="6" class="form-control"
+                            placeholder="Write Something"></textarea>
+                    </div>
+                    <div class="form-group col-sm-12 mt-3">
+                        <input type="submit" value="Send Message" id="contactFormSubmitBtn"
+                            class="btn btn-outline-primary rounded">
+                    </div>
+                </div>
+            </form>
+            <div class="d-none bg-success text-white border-success p-3 border rounded" id="form_submitted_msg">
+                Hurray! Your Form Has Been Delivered!
+            </div>
+        </div><!-- end of container -->
+    </section><!-- end of contact section -->
+
+    <!-- ___________________________________________________FOOTER______________________________________________ -->
+
+    <div class='freaky_body mt-0'>
+        <footer class="freaky_footer">
+            <ul class="freaky_social-icon">
+                <li class="social-icon__item"><a class="social-icon__link" href="https://github.com/MuhammadAslam-K"
+                        target="_blank">
+                        <ion-icon name="logo-github"></ion-icon></a></li>
+                <li class="social-icon__item"><a class="social-icon__link"
+                        href="https://www.linkedin.com/in/muhammadaslamka/" target="_blank">
+                        <ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li class="social-icon__item"><a class="social-icon__link"
+                        href="https://www.instagram.com/soul_of_mercara/" target="_blank">
+                        <ion-icon name="logo-instagram"></ion-icon></a></li>
+            </ul>
+            <!-- ___________________________________________________FOOT-FOOTER______________________________________________ -->
+
+            <ul class="freaky_menu">
+                <li class="freaky_menu__item"><a class="freaky_menu__link" href="#">Home</a></li>
+                <li class="freaky_menu__item"><a class="freaky_menu__link" href="#">About</a></li>
+                <li class="freaky_menu__item"><a class="freaky_menu__link" href="#">MyWorks</a>
+                <li class="freaky_menu__item"><a class="freaky_menu__link" href="#">Services</a>
+                </li>
+                <li class="freaky_freaky_menu__item"><a class="freaky_menu__link" href="#">Team</a></li>
+                <li class="freaky_menu__item"><a class="freaky_menu__link" href="#">Contact</a></li>
+            </ul>
+            <p>&copy;2024 Muhammad Aslam | All Rights Reserved</p>
+
+        </footer>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </div>
+
+    <!-- ___________________________________________________JS SCRIPT______________________________________________ -->
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+    <!-- <script src="assets/js/meyawo.js"></script> -->
+    <script src="assets/js/meyawo.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 0,
+                depth: 300,
+                modifier: 1,
+                slideShadows: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+    <script src="./script.js"></script>
+
+    <!-- /* ------------------------SWIPER----------------------- */ -->
+
+    <script>
+        // JavaScript to handle the scroll buttons
+        document.addEventListener('DOMContentLoaded', function () {
+            const scrollContainer = document.querySelector('.project_container');
+            const scrollLeftBtn = document.querySelector('.scroll-left-btn');
+            const scrollRightBtn = document.querySelector('.scroll-right-btn');
+
+            // Function to scroll left
+            scrollLeftBtn.addEventListener('click', function () {
+                scrollContainer.scrollLeft -= 300; // Adjust the scroll distance as needed
+            });
+
+            // Function to scroll right
+            scrollRightBtn.addEventListener('click', function () {
+                scrollContainer.scrollLeft += 300; // Adjust the scroll distance as needed
+            });
+        });
+    </script>
+</body>
+
+</html>
